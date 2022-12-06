@@ -1,0 +1,213 @@
+The Advent of Code.
+
+Horatio, a counter.
+Juliet, the lower left side.
+Romeo, the upper left side.
+Ophelia, the lower right side.
+Hamlet, the upper right side.
+
+Act I: It's all an act.
+
+Scene I: The setup, set Horatio to 0.
+
+[Enter Juliet and Horatio]
+
+Juliet: Thou art nothing. Remember thyself.
+
+[Exeunt Juliet and Horatio]
+
+Scene II: The loop, reading 4 numbers and the newline 'J-R,O-H\n'.
+
+[Exeunt]
+
+[Enter Juliet and Romeo]
+
+Juliet: Thou art nothing.
+
+Romeo: Thou art nothing.
+
+[Exeunt]
+
+[Enter Ophelia and Hamlet]
+
+Ophelia: Thou art nothing.
+
+Hamlet: Thou art nothing.
+
+[Exeunt]
+
+Scene III: The loop, reading Juliet.
+
+[Exeunt]
+
+[Enter Juliet and Horatio]
+
+Juliet: Open your mind.
+
+Horatio: Am I as horrid as a flirt-gill?
+
+Juliet: If so, we must return to scene XV.
+
+Horatio: Am I better than the sum of the sum of a foul devil
+         and a sunny amazing golden warm morning
+         and a beautiful lovely reddest golden warm summer's day?
+
+Juliet: If not, we must return to scene IV.
+
+Juliet: You are the difference between thyself
+        and the sum of a sunny amazing golden warm morning
+        and a beautiful lovely reddest golden warm summer's day.
+
+Horatio: Thou art the sum of myself and the product of you and the sum of an
+		 amazing healthy honest hamster and a golden chihuahua.
+
+Juliet: Let us return to scene III.
+
+[Exeunt]
+
+
+Scene IV: The loop, reading.
+
+[Exeunt]
+
+[Enter Romeo and Horatio]
+
+Romeo: Open your mind.
+
+Horatio: Am I better than the sum of the sum of a foul devil
+         and a sunny amazing golden warm morning
+         and a beautiful lovely reddest golden warm summer's day?
+
+Romeo: If not, we must return to scene V.
+
+Romeo: You are the difference between thyself
+        and the sum of a sunny amazing golden warm morning
+        and a beautiful lovely reddest golden warm summer's day.
+
+Horatio: Thou art the sum of myself and the product of you and the sum of an
+		 amazing healthy honest hamster and a golden chihuahua.
+
+Romeo: Let us return to scene IV.
+
+[Exeunt]
+
+Scene V: The loop, reading Ophelia.
+
+[Exeunt]
+
+[Enter Ophelia and Horatio]
+
+Ophelia: Open your mind.
+
+Horatio: Am I better than the sum of the sum of a foul devil
+         and a sunny amazing golden warm morning
+         and a beautiful lovely reddest golden warm summer's day?
+
+Ophelia: If not, we must return to scene VI.
+
+Ophelia: You are the difference between thyself
+        and the sum of a sunny amazing golden warm morning
+        and a beautiful lovely reddest golden warm summer's day.
+
+Horatio: Thou art the sum of myself and the product of you and the sum of an
+		 amazing healthy honest hamster and a golden chihuahua.
+
+Ophelia: Let us return to scene V.
+
+[Exeunt]
+
+Scene VI: The loop, reading Hamlet.
+
+[Exeunt]
+
+[Enter Hamlet and Horatio]
+
+Hamlet: Open your mind.
+
+Horatio: Am I better than the sum of the sum of a foul devil
+         and a sunny amazing golden warm morning
+         and a beautiful lovely reddest golden warm summer's day?
+
+Hamlet: If not, we must return to scene XIII.
+
+Hamlet: You are the difference between thyself
+        and the sum of a sunny amazing golden warm morning
+        and a beautiful lovely reddest golden warm summer's day.
+
+Horatio: Thou art the sum of myself and the product of you and the sum of an
+		 amazing healthy honest hamster and a golden chihuahua.
+
+Hamlet: Let us return to scene VI.
+
+[Exeunt]
+
+Scene XIII: The left over right, if [Juliet, Romeo] overlaps [Ophelia, Hamlet] then (Juliet <= Ophelia and Ophelia <= Romeo) OR (Ophelia <= Juliet and Juliet <= Hamlet).
+
+[Exeunt]
+
+[Enter Juliet and Ophelia]
+
+Juliet: Am I better than you?
+
+Ophelia: If so, we must proceed to scene XIV.
+
+[Exeunt]
+
+[Enter Romeo and Ophelia]
+
+Ophelia: Am I better than you?
+
+Romeo: If so, we must proceed to scene XIV.
+
+[Exeunt]
+
+[Enter Juliet and Horatio]
+
+Juliet: Recall what has been lost.
+        Thou art the sum of thyself and a morning.
+        Remember thyself.
+        We must return to scene II.
+
+[Exeunt Juliet and Horatio]
+
+Scene XIV: The left over right, if [Juliet, Romeo] overlaps [Ophelia, Hamlet] then (Romeo >= Ophelia) OR (Hamlet >= Juliet).
+
+[Exeunt]
+
+[Enter Ophelia and Juliet]
+
+Ophelia: Am I better than you?
+
+Juliet: If so, we must return to scene II.
+
+[Exeunt]
+
+[Enter Hamlet and Juliet]
+
+Juliet: Am I better than you?
+
+Hamlet: If so, we must return to scene II.
+
+[Exeunt]
+
+[Enter Juliet and Horatio]
+
+Juliet: Recall what has been lost.
+        Thou art the sum of thyself and a morning.
+        Remember thyself.
+        We must return to scene II.
+
+[Exeunt Juliet and Horatio]
+
+Scene XV: The end.
+
+[Exeunt]
+
+[Enter Juliet and Horatio]
+
+Juliet: Recall thyself. Open your heart.
+
+        Thou art the sum of an amazing healthy honest hamster and a golden
+        chihuahua. Speak your mind!
+
+[Exeunt]
